@@ -60,9 +60,12 @@
   display: flex;
   gap: 15px;
   font-weight: 600;
-  font-size: 26.1974px;
   line-height: 35px;
   color: #363c45;
+}
+
+.title {
+  font-size: 26px;
 }
 
 .paragraph {

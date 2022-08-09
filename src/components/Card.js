@@ -1,14 +1,15 @@
 import React from "react"
 import * as style from "../styles/card.module.css"
 
-export default function Card() {
+export default function Card(props) {
+  const { source, title } = props
   return (
     <section className={style.card}>
       <span className={style.cardHeader}>
         <span className={style.blue}>
-          <img src="/cardFive.svg" alt="card logo" />
+          <img src={source} alt="card logo" />
         </span>
-        <h2>Card</h2>
+        <h2 className={style.title}>{title}</h2>
       </span>
       <p className={style.paragraph}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate

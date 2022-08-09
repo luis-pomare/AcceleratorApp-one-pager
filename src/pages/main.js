@@ -30,7 +30,11 @@ export default function Main() {
         </p>
       </span>
       <span className={style.cards}>
-        <Card />
+        <Card source="/cardOne.svg" title="Incubator/Accelerator" />
+        <Card source="/cardTwo.svg" title="Coporations" />
+        <Card source="/cardThree.svg" title="Investor" />
+        <Card source="/cardFour.svg" title="Startup" />
+        <Card source="/cardFive.svg" title="Open Challenge" />
       </span>
     </main>
   )
