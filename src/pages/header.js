@@ -1,4 +1,5 @@
 import React from "react"
+import Cookies from "../components/Cookies"
 import * as style from "../styles/header.module.css"
 
 export default function Header() {
@@ -14,6 +15,7 @@ export default function Header() {
         Schedule a Demo
       </button>
       <img src="/Video.svg" alt="video logo" />
+      <Cookies />
     </header>
   )
 }
