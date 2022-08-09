@@ -1,0 +1,57 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 79px 5% 0 5%;
+  color: #fff;
+}
+
+.titleOne {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 165%;
+  text-align: center;
+  color: #f3f5f7;
+}
+
+.titleTwo {
+  width: 398px;
+  height: 64px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.352212px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.paragraph {
+  width: 398px;
+  height: 69px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 165%;
+  color: #e7eaee;
+  margin-bottom: 37px;
+}
+
+.headerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 251px;
+  height: 48px;
+  background: #ffffff;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1b1e22;
+  margin-bottom: 63px;
+}
