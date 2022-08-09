@@ -1,4 +1,5 @@
 import React from "react"
+import Card from "../components/Card"
 import * as style from "../styles/main.module.css"
 
 export default function Main() {
@@ -28,7 +29,9 @@ export default function Main() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </span>
-      <span className={style.cards}></span>
+      <span className={style.cards}>
+        <Card />
+      </span>
     </main>
   )
 }
