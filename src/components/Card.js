@@ -5,7 +5,9 @@ export default function Card() {
   return (
     <section className={style.card}>
       <span className={style.cardHeader}>
-        <img src="/check.svg" alt="card logo" />
+        <span className={style.blue}>
+          <img src="/cardFive.svg" alt="card logo" />
+        </span>
         <h2>Card</h2>
       </span>
       <p className={style.paragraph}>
@@ -18,15 +20,15 @@ export default function Card() {
       <div className={style.line} />
       <h3 className={style.popular}>Popular Features</h3>
       <span className={style.feature}>
-        <img src="/check.svg" />
+        <img src="/check.svg" alt="card logo" />
         <p>Lorem ipsum dolor sit </p>
       </span>
       <span className={style.feature}>
-        <img src="/check.svg" />
+        <img src="/check.svg" alt="card logo" />
         <p>Lorem ipsum dolor sit </p>
       </span>
       <span className={style.feature}>
-        <img src="/check.svg" />
+        <img src="/check.svg" alt="card logo" />
         <p>Lorem ipsum dolor sit </p>
       </span>
       <button className={style.cardButton}>Get Stared</button>

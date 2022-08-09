@@ -76,3 +76,13 @@
   margin-top: 27px;
   margin-bottom: 36px;
 }
+
+.blue {
+  width: 34.93px;
+  height: 34.93px;
+  background: #206ecf;
+  border-radius: 8.73248px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
