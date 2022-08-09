@@ -1,6 +1,6 @@
 .main {
   background-color: #fff;
-  padding: 60px 15px;
+  padding: 135px 15px;
 }
 
 .logos {
@@ -18,6 +18,16 @@
   width: 64px;
   height: 64px;
   background-color: #fff;
+}
+
+.logoOne {
+  position: relative;
+  bottom: 51px;
+}
+
+.logoTwo {
+  position: relative;
+  bottom: 75px;
 }
 
 .comunityHeader {

@@ -8,13 +8,13 @@ export default function Main() {
         <div className={style.logo}>
           <img src="/graphic.svg" alt="graphic" />
         </div>
-        <div className={style.logo}>
+        <div className={`${style.logo} ${style.logoOne}`}>
           <img src="/startup.svg" alt="startup" />
         </div>
-        <div className={style.logo}>
+        <div className={`${style.logo} ${style.logoTwo}`}>
           <img src="/window.svg" alt="window" />
         </div>
-        <div className={style.logo}>
+        <div className={`${style.logo} ${style.logoOne}`}>
           <img src="/paper.svg" alt="paper" />
         </div>
         <div className={style.logo}>
