@@ -19,7 +19,7 @@
 .buttons {
   display: flex;
   justify-content: center;
-  gap: 5vw;
+  gap: 15px;
   margin: 10px;
 }
 
@@ -44,4 +44,11 @@
   font-size: 14px;
   line-height: 22px;
   color: #206ecf;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    flex-direction: row;
+    align-items: center;
+  }
 }

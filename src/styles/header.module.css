@@ -53,5 +53,26 @@ header {
   font-size: 14px;
   line-height: 20px;
   color: #1b1e22;
-  margin-bottom: 63px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1200px) {
+  .titleOne {
+    font-size: 26px;
+  }
+  .titleTwo {
+    width: 1130px;
+    height: 128px;
+    font-size: 72px;
+    line-height: 64px;
+  }
+  .paragraph {
+    font-size: 20px;
+    width: 740px;
+    height: 66px;
+  }
+
+  .video {
+    width: 938px;
+  }
 }
