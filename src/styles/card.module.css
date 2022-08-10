@@ -89,3 +89,10 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (min-width: 845px) {
+  .card {
+    width: 364.62px;
+    height: 612.72px;
+  }
+}

@@ -66,7 +66,7 @@ export default function Footer() {
             <li>Legal</li>
           </ul>
         </div>
-        <div className={style.section}>
+        <div className={`${style.section} ${style.maxWidth}`}>
           <h2>Follow</h2>
           <div className={style.socialLine} />
           <ul className={style.social}>

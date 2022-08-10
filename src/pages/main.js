@@ -7,19 +7,19 @@ export default function Main() {
     <main className={style.main}>
       <span className={style.logos}>
         <div className={style.logo}>
-          <img src="/graphic.svg" alt="graphic" />
+          <img className={style.image} src="/graphic.svg" alt="graphic" />
         </div>
         <div className={`${style.logo} ${style.logoOne}`}>
-          <img src="/startup.svg" alt="startup" />
+          <img className={style.image} src="/startup.svg" alt="startup" />
         </div>
         <div className={`${style.logo} ${style.logoTwo}`}>
-          <img src="/window.svg" alt="window" />
+          <img className={style.image} src="/window.svg" alt="window" />
         </div>
         <div className={`${style.logo} ${style.logoOne}`}>
-          <img src="/paper.svg" alt="paper" />
+          <img className={style.image} src="/paper.svg" alt="paper" />
         </div>
         <div className={style.logo}>
-          <img src="/rise.svg" alt="rise" />
+          <img className={style.image} src="/rise.svg" alt="rise" />
         </div>
       </span>
       <span className={style.comunityHeader}>
