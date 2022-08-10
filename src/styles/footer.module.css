@@ -1,0 +1,151 @@
+footer {
+  margin: 0;
+  width: 100%;
+  background-color: #1b1e22;
+  color: #fff;
+  padding-top: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f3f5f7;
+  margin-bottom: 8px;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #f3f5f7;
+  margin-bottom: 16px;
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+form .line {
+  width: 263px;
+}
+
+.footerInput {
+  background-color: #1b1e22;
+  border: none;
+  width: 245px;
+}
+
+.sectionContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+}
+
+.section {
+  padding-left: 15px;
+}
+
+.section h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #f3f5f7;
+  margin-top: 48px;
+}
+
+.section .line {
+  width: 70%;
+  margin-top: 7px;
+  margin-bottom: 25px;
+}
+
+.section ul {
+  list-style-type: none;
+}
+
+.section ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #b6c0cd;
+  margin-top: 16px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 17px;
+}
+
+.socialLine {
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.4);
+  margin-top: 7px;
+}
+
+.termsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.privacy,
+.terms {
+  display: flex;
+  gap: 15%;
+  margin-bottom: 17px;
+  width: 70%;
+  justify-content: center;
+}
+
+.terms p,
+.privacy p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #aab6c5;
+}
+
+.termsContainer .line {
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.copyright .line {
+  width: 1px;
+  height: 30px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.copyright p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 24px;
+  color: #ffffff;
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+  padding-right: 25px;
+  margin-right: 25px;
+}

@@ -6,6 +6,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+html,
+body {
+  width: 100%;
+}
+
 .mainContainer {
   background-color: #83b5f2; /* for browesers that doesn't support gradients*/
   background: linear-gradient(110.96deg, #206ecf 0.72%, #71b0ff 100%);
