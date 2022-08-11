@@ -85,6 +85,8 @@ header::after {
 @media screen and (min-width: 519px) {
   header::after {
     bottom: -30px;
+    height: 300px;
+    transform: skewY(-10deg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -108,7 +110,8 @@ header::after {
   }
 
   header::after {
-    bottom: -180px;
-    height: 450px;
+    bottom: -360px;
+    height: 700px;
+    transform: skewY(-5deg);
   }
 }
