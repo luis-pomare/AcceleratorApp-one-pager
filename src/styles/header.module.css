@@ -13,13 +13,14 @@ header::after {
   width: 100%;
   height: 300px;
   position: absolute;
-  bottom: -70px;
+  bottom: -115px;
   background-color: #fff;
-  transform: skewY(-4deg);
+  transform: skewY(-15deg);
 }
 
 .video {
   z-index: 1;
+  width: 380px;
 }
 
 .titleOne {
@@ -71,6 +72,21 @@ header::after {
   margin-bottom: 40px;
 }
 
+.ellipses {
+  background-color: #1b1e22;
+  height: 775px;
+  width: 778px;
+  position: fixed;
+  left: 115px;
+  overflow: hidden;
+  display: none;
+}
+
+@media screen and (min-width: 519px) {
+  header::after {
+    bottom: -30px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .titleOne {
     font-size: 26px;
@@ -89,5 +105,10 @@ header::after {
 
   .video {
     width: 938px;
+  }
+
+  header::after {
+    bottom: -180px;
+    height: 450px;
   }
 }

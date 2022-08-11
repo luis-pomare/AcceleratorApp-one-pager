@@ -1,5 +1,5 @@
 .card {
-  width: 398px;
+  max-width: 398px;
   height: 668.82px;
   box-shadow: 0px 8.73248px 26.1974px 8.73248px rgba(0, 0, 0, 0.08);
   border-radius: 16px;
@@ -66,6 +66,7 @@
 
 .title {
   font-size: 26px;
+  padding-right: 15px;
 }
 
 .paragraph {
