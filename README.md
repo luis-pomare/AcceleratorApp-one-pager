@@ -1,12 +1,12 @@
 ## Live Demo
 
-[Live Demo Link](https://62f4ba8f41529b0eb6f9ef71--vocal-medovik-4c242b.netlify.app/)
+[Live Demo Link](https://62f916d594aca50642cf5d73--hilarious-taiyaki-94672c.netlify.app/)
 
 ## App screenshots
 
-[<img src="./screenshots/mobile.png">](https://62f4ba8f41529b0eb6f9ef71--vocal-medovik-4c242b.netlify.app/)
+[<img src="./screenshots/mobile.png">](https://62f916d594aca50642cf5d73--hilarious-taiyaki-94672c.netlify.app/)
 
-[<img src="./screenshots/desktop.png">](https://62f4ba8f41529b0eb6f9ef71--vocal-medovik-4c242b.netlify.app/)
+[<img src="./screenshots/desktop.png">](https://62f916d594aca50642cf5d73--hilarious-taiyaki-94672c.netlify.app/)
 
 ## Authors
 

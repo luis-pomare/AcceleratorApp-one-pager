@@ -6,6 +6,7 @@ header {
   padding-top: 79px;
   color: #fff;
   position: relative;
+  overflow: hidden;
 }
 
 header::after {
@@ -20,7 +21,7 @@ header::after {
 
 .video {
   z-index: 1;
-  width: 380px;
+  width: 100%;
 }
 
 .titleOne {
@@ -30,6 +31,7 @@ header::after {
   line-height: 165%;
   text-align: center;
   color: #f3f5f7;
+  z-index: 1;
 }
 
 .titleTwo {
@@ -43,6 +45,7 @@ header::after {
   letter-spacing: 0.352212px;
   margin-top: 20px;
   margin-bottom: 15px;
+  z-index: 1;
 }
 
 .paragraph {
@@ -54,6 +57,7 @@ header::after {
   line-height: 165%;
   color: #e7eaee;
   margin-bottom: 37px;
+  z-index: 1;
 }
 
 .headerButton {
@@ -70,16 +74,89 @@ header::after {
   line-height: 20px;
   color: #1b1e22;
   margin-bottom: 40px;
+  z-index: 1;
 }
 
-.ellipses {
-  background-color: #1b1e22;
-  height: 775px;
-  width: 778px;
-  position: fixed;
-  left: 115px;
+.circles {
+  top: -50px;
+  left: 40vw;
+  width: 755px;
+  height: 755px;
   overflow: hidden;
-  display: none;
+  position: absolute;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  opacity: 0.2;
+}
+
+.circle {
+  opacity: 0.9;
+  border: 1px solid #fff;
+  height: 100%;
+  width: 175px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.a {
+  transform: rotate(35deg);
+}
+
+.b {
+  transform: rotate(40deg);
+}
+
+.c {
+  transform: rotate(45deg);
+}
+
+.d {
+  transform: rotate(50deg);
+}
+
+.e {
+  transform: rotate(55deg);
+}
+
+.f {
+  transform: rotate(60deg);
+}
+
+.g {
+  transform: rotate(65deg);
+}
+
+.h {
+  transform: rotate(70deg);
+}
+
+.i {
+  transform: rotate(130deg);
+}
+
+.j {
+  transform: rotate(135deg);
+}
+
+.k {
+  transform: rotate(140deg);
+}
+
+.l {
+  transform: rotate(145deg);
+}
+
+.m {
+  transform: rotate(150deg);
+}
+
+.n {
+  transform: rotate(155deg);
+}
+
+.o {
+  transform: rotate(160deg);
 }
 
 @media screen and (min-width: 519px) {
@@ -88,17 +165,24 @@ header::after {
     height: 300px;
     transform: skewY(-10deg);
   }
+
+  .circles {
+    left: 60vw;
+  }
 }
+
 @media screen and (min-width: 1200px) {
   .titleOne {
     font-size: 26px;
   }
+
   .titleTwo {
     width: 1130px;
     height: 128px;
     font-size: 72px;
     line-height: 64px;
   }
+
   .paragraph {
     font-size: 20px;
     width: 740px;
@@ -113,5 +197,12 @@ header::after {
     bottom: -360px;
     height: 700px;
     transform: skewY(-5deg);
+  }
+
+  .circles {
+    width: 2300px;
+    height: 2300px;
+    top: -800px;
+    left: 20vw;
   }
 }
